@@ -8,7 +8,7 @@ let width=document.getElementById('width'),
     rng=document.getElementById('rng'),
     nat=document.getElementById('nat');
 
-console.log(nat);
+
 rng.setAttribute('disabled','disabled');
 btns.onclick = function btns () {
     
