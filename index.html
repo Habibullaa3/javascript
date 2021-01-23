@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>shape</title>
+</head>
+<body>
+    <div class="frame">
+
+        <div class="box">
+            <div class="box1">
+                 <div class="label1"><label for="width">Width</label>
+                 <label for="height">Height</label></div>
+
+                 <input type="text"  name="width" id="width">
+                 <input type="text" name="height" id="height">
+
+            </div>
+            <div class="box2">
+                 <div class="label"><label for="radius">Radius</label>
+                      <label for="color">Color</label>
+                      <label for="rng">shaffoflik</label>
+                </div>
+
+                 <input type="text" name="radius" id="rad">
+                 <input type="color" name="color" id="color">
+                 <input type="range" id="rng" min="0" max="100" value="100" step="1"><span id="nat"></span>
+                
+                </div>
+            
+            <button id="btns">OK</button>
+            <button id="reset">reset</button>
+        </div>
+        <div id="shape"></div>
+    </div>
+   
+<script src="script.js"></script>    
+</body>
+</html>
